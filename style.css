@@ -1,0 +1,40 @@
+body {
+    width: 1440px;
+    height: 4540px;
+    background: #FFFEFC;
+    
+}
+header {
+     width: 1440px;
+    height: 837px;
+    flex-shrink: 0;
+    background: #221518;
+}
+nav {
+    display: inline-flex;
+}
+.search {
+    width: 177px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.menu-space {
+    width: 464  px;
+    height: 67px;
+    flex-shrink: 0;
+}
+nav>ul {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+nav>ul>li {
+    color: #DABB9E;
+    text-align: right;
+    font-family: IRANSansX;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%; /* 18.4px */
+}
+.
